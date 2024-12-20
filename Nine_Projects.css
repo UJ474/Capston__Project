@@ -55,7 +55,7 @@
     }
 
     .project-row {
-        gap: 16px;
+        gap: 6px;
     }
 
     .projects {
@@ -65,7 +65,7 @@
 
 @media (max-width: 450px) {
     .Nine-Project-Overview-Collage {
-        gap: 16px;
+        gap: 6px;
     }
 
     .project-row {
