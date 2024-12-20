@@ -24,7 +24,7 @@
     font-size: large; 
     font-family: 'Roboto Mono', monospace;
     gap: 8px;
-    width: 60%;
+    width: 30%;
 }
 
 .projects img {
@@ -55,7 +55,7 @@
     }
 
     .project-row {
-        gap: 6px;
+        gap: 16px;
     }
 
     .projects {
@@ -65,7 +65,7 @@
 
 @media (max-width: 450px) {
     .Nine-Project-Overview-Collage {
-        gap: 6px;
+        gap: 16px;
     }
 
     .project-row {
