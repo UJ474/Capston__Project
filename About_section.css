@@ -1,0 +1,42 @@
+.Portfolio_About_Section {
+    margin: 88px;
+}
+
+.Portfolio_About_Section p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    width: 50%;
+}
+
+
+.Project_Detail_Page {
+    padding: 48px 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin: 88px;
+}
+
+.Project_Detail_Page p {
+    display: flex;
+    justify-content: left;
+    width: 50%;
+}
+
+.contact_details {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+

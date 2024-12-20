@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.HOME {
+    transition: 0.4s ease-in-out;
+}
+
+.PROJECT {
+    transition: 0.4s ease-in-out;
+}
+
+.ABOUT {
+    transition: 0.4s ease-in-out;
+}
+
+.CONTACT {
+    transition: 0.4s ease-in-out;
+}
+
+.HOME:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.PROJECT:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.ABOUT:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.CONTACT:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.header {
+    z-index: 100000;
+    display: flex;
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid black;
+    padding: 16px 0;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+}
+
+.logo-appType {
+    gap: 12px;
+    width: auto;
+    height: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    font-size: 34px;
+    margin: 0 55px;
+}
+
+
+.pageLinks {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    gap: 32px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing:-0.01em;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 55px;
+    transition: transform 0.5s ease;
+}
+
+.pageLinks img {
+    display: none;
+    height: 40em;
+    width: 40em;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .pageLinks img {
+        display: block;
+        height: auto;
+        width: auto;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 12px 0;
+    }
+
+    .logo-appType {
+        font-size: 28px;
+        margin: 0 20px;
+    }
+
+    .pageLinks {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 0;
+    }
+
+    .logo-appType {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .pageLinks {
+        display: none;
+    }
+
+}
+
+
+/* Next Section Container */
+
+.container {
+    padding: 28px 0;
+}
